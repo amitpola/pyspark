@@ -2,11 +2,11 @@ After comparisions between groupByKey() and reduceByKey() computaions
 The time taken by groupByKey method is - 0.21964 seconds
 The time taken by reduceByKey method is - 0.03999 seconds
 
-Hence we can infer that reduceByKey computaions are much faster on large data sets when compared to groupByKey
+Hence we can infer that reduceByKey computations are much faster on large data sets when compared to groupByKey
 
-The time taken in reduceByKey is less and it is more efficient because, reduceByKey does a map side combinig 
-criteria by which the same reducing operations are performed before-hand at map side, which helps in grouping and
-shuffling faster in order to decrease the reducing operations in Reducer side.
-         But groupByKey does not perform any reducer or combinig operations at map side which leads to increase in
-amount of operationd at Reducer. Hence time taken in groupByKey is more compared to reduceByKey
+The time taken in reduceByKey is less and it is more efficient because, reduceByKey does a map side combining 
+criteria by which the same reducing operations are performed before-hand at map side, which helps in grouping and and
+shuffling faster in order to decrease the reducing operations at Reducer side.
+         But groupByKey does not perform any reducer or combining operations at map side which leads to increase in
+amount of operations at Reducer. Hence time taken in groupByKey is more compared to reduceByKey
 
