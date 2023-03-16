@@ -15,4 +15,3 @@ During my practise and operations Py4JJavaError which riss due to the incorrect 
 
 ## Also pip install pyspark which also installs py4j packages  
 ## Install Java-JDK which is necessary to run and execute spark 
-**
